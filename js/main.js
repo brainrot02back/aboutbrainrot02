@@ -22,7 +22,7 @@ const formatElapsed = ms => {
   if (m > 0) return `${m} min`;
   return `${s} sec`;
 };
-const STATIC_QUOTE = "The quieter you become, the more you can hear.";
+const STATIC_QUOTE = "i wanna work with drexxy like i used to -brainzz";
 function showStaticQuote() {
   const text = $('#quoteText');
   $('#quoteCount').textContent = 'Quote: 1';
@@ -172,3 +172,4 @@ musicBtn.addEventListener('click', () => {
     musicBtn.textContent = '🔇';
   }
 });
+
