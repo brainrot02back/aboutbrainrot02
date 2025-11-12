@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>brainrot02 | Portfolio</title>
+  <link href="https://rsms.me/inter/inter.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <audio id="bgMusic" loop>
+    <source src="js/music.mp3" type="audio/mpeg">
+  </audio>
+  <button id="musicToggle" class="music-btn" title="Toggle Music">🔇</button>
+
+  <div class="wrap">
+    <div class="card">
+   
+      <div class="panel profile" id="profilePanel">
+        <div class="pfp-wrap">
+          <div class="pfp" id="pfp"><img src="" alt="avatar" /></div>
+          <div class="name">
+            <div class="username" id="displayName">Loading...</div>
+            <div class="discr" id="tagline">Discord ID: 1405970014212853773</div>
+            <div class="status-row">
+              <div id="statusDot" class="status-dot"></div>
+              <div id="statusText" class="status-label">Fetching status…</div>
+              <div id="statusSince" class="muted" style="margin-left:8px; font-size:0.85rem"></div>
+            </div>
+          </div>
+        </div>
+        <div id="activityBlock" style="margin-top:12px"></div>
+      </div>
+
+      <!-- Right: Main -->
+      <div class="panel main">
+        <div class="hero">
+          <h1 class="headline">My Portfolio</h1>
+          <p class="sub">
+            I am <strong>brainrot02</strong>, a male developer in the
+            <span class="highlight">cheating &amp; cybersecurity</span> community.
+          </p>
+
+          <div class="quote" id="quoteBox" aria-live="polite">
+            <div class="q-mark">“</div>
+            <div class="q-text" id="quoteText">Loading quotes…</div>
+          </div>
+
+          <div class="meta-row" id="metaRow">
+            <div id="lastUpdated" class="muted">Last updated: —</div>
+            <div id="quoteCount" class="muted">Quotes: —</div>
+          </div>
+        </div>
+
+        <div class="panel" style="display:flex; flex-direction:column; gap:10px;">
+          <div style="font-weight:700">About</div>
+          <div class="muted">
+            <div class="details">
+              <h4>Core Skills</h4>
+              <ul>
+                <li><strong>Languages:</strong>
+                  <span class="lang cpp">C++</span>,
+                  <span class="lang csharp">C#</span>,
+                  <span class="lang python">Python</span>,
+                  <span class="lang webdev">HTML/CSS/JS</span>,
+                  Lua
+                </li>
+                <li><strong>Reverse Engineering:</strong> IDA Free, x64dbg, Cheat Engine, x32dbg</li>
+                <li><strong>Game Hacking:</strong> Internal &amp; external cheats</li>
+                <li><strong>Platforms:</strong> Windows (user &amp; kernel mode), Linux (basic), Unity/Unreal Engine</li>
+              </ul>
+
+              <h2>Community &amp; Presence</h2>
+              <p>
+                Active on private Discord circles. Known for game cheats and cybersec (100+ reps), and
+                <em>zero bans</em> on paid products.
+              </p>
+            </div>
+          </div>
+        </div>
+
+  
+        <div class="github-stats">
+          <div class="stat-row">
+            <img
+              src="https://github-readme-stats.vercel.app/api?username=brainrot02back&show_icons=true&theme=tokyonight&hide_border=true"
+              alt="GitHub Stats" />
+            <img
+              src="https://github-readme-streak-stats.herokuapp.com/?user=brainrot02back&theme=tokyonight&hide_border=true"
+              alt="GitHub Streak" />
+          </div>
+        </div>
+
+        <footer>website designed by ellii (pasted by me brainrot02 — love you twin)</footer>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
